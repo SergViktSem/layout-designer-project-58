@@ -1,21 +1,79 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>SergViktSem/layout-designer-project-58</title>
 
     <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-  <section>
-    <h1>Когнитивные искажения в программировании</h1>
-    <img src="../images/hexlet.png" alt="Логотип Hexlet">
-    <p>
-       Мы, разработчики, часто сталктваемся с проблемами, которые идут вразрез
-       с нашей продуктивностью. Но мы часто игнорируем целостную картину.
-    </p>
-  </section>
-</body>
+  </head>
+  <body>
+  <header>
+    <section>
+      <h1>Когнитивные <br> искажения <br> в программировании </h1>
+      <img class="img-header" src="../images/main.png" alt="Логотип Hexlet">
+      <div class="columns">
+        <div class="left-column">
+          <p>
+            Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.
+          </p>
+        </div>
+        <div class="right-column">
+          <p>
+            Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию
+          </p>
+          <p>
+            Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.
+          </p>
+          <a href="https://ru.hexlet.io">подробнее</a>
+        </div> 
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="video-section">
+      <div>
+        <h1>Что же это такое,<br>когнитивные искажения?</h1>
+        <p>Что такое когнитивные искажения. Petrovna Channel</p>
+        <iframe class="video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section class="navigation" id="navigation">
+      <div class="card first-card">
+        <h>5 когнитивных<br>искажений<br>о существовании<br>которых стоит<br>помнить</h>
+      </div>
+      <div class="card">
+         <p class="number">1</p>
+         <h3>Эффект ИКЕА</h3>
+         <p>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
+      </div>
+      <div class="card">
+         <p class="number">2</p>
+         <h3>Преждевременная оптимизация</h3>
+         <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
+      </div>
+      <div class="card">
+         <p class="number">3</p>
+         <h3>Искажение новизны</h3>
+         <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
+      </div>
+      <div class="card">
+        <p class="number">4</p>
+        <h3>Гиперболическое обесценивание</h3>
+        <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
+      </div>
+      <div class="card">
+        <p class="number">5</p>
+        <h3>Ошибка планирования</h3>
+        <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    
+  </footer>
+  </body>
 </html>
